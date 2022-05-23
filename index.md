@@ -16,9 +16,14 @@
 
 ## Answer the following questions with 2-3 sentences each:
 
-* Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.\
+* Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+the problem is cauled when the back ticks are used. Add an if statement checks if the brackets are preceded by a backtick. We would want to ignore anything in a code block. And if not add it the link to the arraylist.
 
 * Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
+The main problem with snippet 2 is the parantheses inside the link. It would be necessary to identify that multiple paranthesis are not the end of the link. A way to fix it is to always look for paranthesis by pairs and keep each pair in count. 
+
 * Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
+This snippet's problem is due to an incomplete link and new lines scattered in the file. The code snippet involves newlines in brackets and parentheses, I don't think we are able to fix the problem in under 10 lines since our program is only checking for if there's a single spaces between parentheses.
