@@ -8,3 +8,8 @@
 
 **Showing the code in MarkdownParseTest.java for how you turned it into a test**
 <img width="896" alt="Screen Shot 2022-05-23 at 3 09 48 PM" src="https://user-images.githubusercontent.com/64039891/169913323-7fa1ef56-fe3b-4103-98cd-8afcca0cbd0a.png">
+
+**For your implementation, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.**
+<img width="1068" alt="Screen Shot 2022-05-23 at 3 20 31 PM" src="https://user-images.githubusercontent.com/64039891/169914231-aeb89e4c-f03a-46b2-8032-51bf8eda6189.png">
+
+**For the implementation you reviewed in Week 7, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.**<img width="1001" alt="Screen Shot 2022-05-23 at 3 24 50 PM" src="https://user-images.githubusercontent.com/64039891/169914601-b4b12487-8b29-4563-9b72-67bd0b5f61c1.png">
